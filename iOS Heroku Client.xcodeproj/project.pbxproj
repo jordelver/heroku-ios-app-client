@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DD95FD7150D71FE00412F70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD95FD6150D71FE00412F70 /* UIKit.framework */; };
+		0DD95FD9150D71FE00412F70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD95FD8150D71FE00412F70 /* Foundation.framework */; };
+		0DD95FDB150D71FE00412F70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD95FDA150D71FE00412F70 /* CoreGraphics.framework */; };
+		0DD95FE1150D71FE00412F70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0DD95FDF150D71FE00412F70 /* InfoPlist.strings */; };
+		0DD95FE3150D71FE00412F70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD95FE2150D71FE00412F70 /* main.m */; };
+		0DD95FE7150D71FE00412F70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD95FE6150D71FE00412F70 /* AppDelegate.m */; };
+		0DD96003150D74DC00412F70 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD95FEF150D74DC00412F70 /* AFHTTPClient.m */; };
+		0DD96004150D74DC00412F70 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD95FF1150D74DC00412F70 /* AFHTTPRequestOperation.m */; };
+		0DD96005150D74DC00412F70 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD95FF3150D74DC00412F70 /* AFImageRequestOperation.m */; };
+		0DD96006150D74DC00412F70 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD95FF5150D74DC00412F70 /* AFJSONRequestOperation.m */; };
+		0DD96007150D74DC00412F70 /* AFJSONUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD95FF7150D74DC00412F70 /* AFJSONUtilities.m */; };
+		0DD96008150D74DC00412F70 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD95FF9150D74DC00412F70 /* AFNetworkActivityIndicatorManager.m */; };
+		0DD96009150D74DC00412F70 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD95FFC150D74DC00412F70 /* AFPropertyListRequestOperation.m */; };
+		0DD9600A150D74DC00412F70 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD95FFE150D74DC00412F70 /* AFURLConnectionOperation.m */; };
+		0DD9600B150D74DC00412F70 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD96000150D74DC00412F70 /* AFXMLRequestOperation.m */; };
+		0DD9600C150D74DC00412F70 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD96002150D74DC00412F70 /* UIImageView+AFNetworking.m */; };
+		0DD9600F150D765C00412F70 /* SushiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD9600E150D765C00412F70 /* SushiTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DD95FD2150D71FE00412F70 /* iOS Heroku Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Heroku Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD95FD6150D71FE00412F70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0DD95FD8150D71FE00412F70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0DD95FDA150D71FE00412F70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0DD95FDE150D71FE00412F70 /* iOS Heroku Client-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS Heroku Client-Info.plist"; sourceTree = "<group>"; };
+		0DD95FE0150D71FE00412F70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0DD95FE2150D71FE00412F70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DD95FE4150D71FE00412F70 /* iOS Heroku Client-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Heroku Client-Prefix.pch"; sourceTree = "<group>"; };
+		0DD95FE5150D71FE00412F70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0DD95FE6150D71FE00412F70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0DD95FEE150D74DC00412F70 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		0DD95FEF150D74DC00412F70 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		0DD95FF0150D74DC00412F70 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		0DD95FF1150D74DC00412F70 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		0DD95FF2150D74DC00412F70 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		0DD95FF3150D74DC00412F70 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		0DD95FF4150D74DC00412F70 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		0DD95FF5150D74DC00412F70 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		0DD95FF6150D74DC00412F70 /* AFJSONUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONUtilities.h; sourceTree = "<group>"; };
+		0DD95FF7150D74DC00412F70 /* AFJSONUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONUtilities.m; sourceTree = "<group>"; };
+		0DD95FF8150D74DC00412F70 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		0DD95FF9150D74DC00412F70 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		0DD95FFA150D74DC00412F70 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		0DD95FFB150D74DC00412F70 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		0DD95FFC150D74DC00412F70 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		0DD95FFD150D74DC00412F70 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		0DD95FFE150D74DC00412F70 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		0DD95FFF150D74DC00412F70 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		0DD96000150D74DC00412F70 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		0DD96001150D74DC00412F70 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		0DD96002150D74DC00412F70 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		0DD9600D150D765C00412F70 /* SushiTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SushiTableViewController.h; sourceTree = "<group>"; };
+		0DD9600E150D765C00412F70 /* SushiTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SushiTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DD95FCF150D71FE00412F70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD95FD7150D71FE00412F70 /* UIKit.framework in Frameworks */,
+				0DD95FD9150D71FE00412F70 /* Foundation.framework in Frameworks */,
+				0DD95FDB150D71FE00412F70 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DD95FC7150D71FE00412F70 = {
+			isa = PBXGroup;
+			children = (
+				0DD95FED150D74DC00412F70 /* AFNetworking */,
+				0DD95FDC150D71FE00412F70 /* iOS Heroku Client */,
+				0DD95FD5150D71FE00412F70 /* Frameworks */,
+				0DD95FD3150D71FE00412F70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DD95FD3150D71FE00412F70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DD95FD2150D71FE00412F70 /* iOS Heroku Client.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DD95FD5150D71FE00412F70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DD95FD6150D71FE00412F70 /* UIKit.framework */,
+				0DD95FD8150D71FE00412F70 /* Foundation.framework */,
+				0DD95FDA150D71FE00412F70 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0DD95FDC150D71FE00412F70 /* iOS Heroku Client */ = {
+			isa = PBXGroup;
+			children = (
+				0DD95FE5150D71FE00412F70 /* AppDelegate.h */,
+				0DD95FE6150D71FE00412F70 /* AppDelegate.m */,
+				0DD95FDD150D71FE00412F70 /* Supporting Files */,
+				0DD9600D150D765C00412F70 /* SushiTableViewController.h */,
+				0DD9600E150D765C00412F70 /* SushiTableViewController.m */,
+			);
+			path = "iOS Heroku Client";
+			sourceTree = "<group>";
+		};
+		0DD95FDD150D71FE00412F70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DD95FDE150D71FE00412F70 /* iOS Heroku Client-Info.plist */,
+				0DD95FDF150D71FE00412F70 /* InfoPlist.strings */,
+				0DD95FE2150D71FE00412F70 /* main.m */,
+				0DD95FE4150D71FE00412F70 /* iOS Heroku Client-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DD95FED150D74DC00412F70 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				0DD95FEE150D74DC00412F70 /* AFHTTPClient.h */,
+				0DD95FEF150D74DC00412F70 /* AFHTTPClient.m */,
+				0DD95FF0150D74DC00412F70 /* AFHTTPRequestOperation.h */,
+				0DD95FF1150D74DC00412F70 /* AFHTTPRequestOperation.m */,
+				0DD95FF2150D74DC00412F70 /* AFImageRequestOperation.h */,
+				0DD95FF3150D74DC00412F70 /* AFImageRequestOperation.m */,
+				0DD95FF4150D74DC00412F70 /* AFJSONRequestOperation.h */,
+				0DD95FF5150D74DC00412F70 /* AFJSONRequestOperation.m */,
+				0DD95FF6150D74DC00412F70 /* AFJSONUtilities.h */,
+				0DD95FF7150D74DC00412F70 /* AFJSONUtilities.m */,
+				0DD95FF8150D74DC00412F70 /* AFNetworkActivityIndicatorManager.h */,
+				0DD95FF9150D74DC00412F70 /* AFNetworkActivityIndicatorManager.m */,
+				0DD95FFA150D74DC00412F70 /* AFNetworking.h */,
+				0DD95FFB150D74DC00412F70 /* AFPropertyListRequestOperation.h */,
+				0DD95FFC150D74DC00412F70 /* AFPropertyListRequestOperation.m */,
+				0DD95FFD150D74DC00412F70 /* AFURLConnectionOperation.h */,
+				0DD95FFE150D74DC00412F70 /* AFURLConnectionOperation.m */,
+				0DD95FFF150D74DC00412F70 /* AFXMLRequestOperation.h */,
+				0DD96000150D74DC00412F70 /* AFXMLRequestOperation.m */,
+				0DD96001150D74DC00412F70 /* UIImageView+AFNetworking.h */,
+				0DD96002150D74DC00412F70 /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DD95FD1150D71FE00412F70 /* iOS Heroku Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD95FEA150D71FE00412F70 /* Build configuration list for PBXNativeTarget "iOS Heroku Client" */;
+			buildPhases = (
+				0DD95FCE150D71FE00412F70 /* Sources */,
+				0DD95FCF150D71FE00412F70 /* Frameworks */,
+				0DD95FD0150D71FE00412F70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Heroku Client";
+			productName = "iOS Heroku Client";
+			productReference = 0DD95FD2150D71FE00412F70 /* iOS Heroku Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DD95FC9150D71FE00412F70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 0DD95FCC150D71FE00412F70 /* Build configuration list for PBXProject "iOS Heroku Client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0DD95FC7150D71FE00412F70;
+			productRefGroup = 0DD95FD3150D71FE00412F70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DD95FD1150D71FE00412F70 /* iOS Heroku Client */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DD95FD0150D71FE00412F70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD95FE1150D71FE00412F70 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DD95FCE150D71FE00412F70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD95FE3150D71FE00412F70 /* main.m in Sources */,
+				0DD95FE7150D71FE00412F70 /* AppDelegate.m in Sources */,
+				0DD96003150D74DC00412F70 /* AFHTTPClient.m in Sources */,
+				0DD96004150D74DC00412F70 /* AFHTTPRequestOperation.m in Sources */,
+				0DD96005150D74DC00412F70 /* AFImageRequestOperation.m in Sources */,
+				0DD96006150D74DC00412F70 /* AFJSONRequestOperation.m in Sources */,
+				0DD96007150D74DC00412F70 /* AFJSONUtilities.m in Sources */,
+				0DD96008150D74DC00412F70 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				0DD96009150D74DC00412F70 /* AFPropertyListRequestOperation.m in Sources */,
+				0DD9600A150D74DC00412F70 /* AFURLConnectionOperation.m in Sources */,
+				0DD9600B150D74DC00412F70 /* AFXMLRequestOperation.m in Sources */,
+				0DD9600C150D74DC00412F70 /* UIImageView+AFNetworking.m in Sources */,
+				0DD9600F150D765C00412F70 /* SushiTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0DD95FDF150D71FE00412F70 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DD95FE0150D71FE00412F70 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DD95FE8150D71FE00412F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0DD95FE9150D71FE00412F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DD95FEB150D71FE00412F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Heroku Client/iOS Heroku Client-Prefix.pch";
+				INFOPLIST_FILE = "iOS Heroku Client/iOS Heroku Client-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0DD95FEC150D71FE00412F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Heroku Client/iOS Heroku Client-Prefix.pch";
+				INFOPLIST_FILE = "iOS Heroku Client/iOS Heroku Client-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DD95FCC150D71FE00412F70 /* Build configuration list for PBXProject "iOS Heroku Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD95FE8150D71FE00412F70 /* Debug */,
+				0DD95FE9150D71FE00412F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DD95FEA150D71FE00412F70 /* Build configuration list for PBXNativeTarget "iOS Heroku Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD95FEB150D71FE00412F70 /* Debug */,
+				0DD95FEC150D71FE00412F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DD95FC9150D71FE00412F70 /* Project object */;
+}
